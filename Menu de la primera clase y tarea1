@@ -1,0 +1,62 @@
+//El menu principal de la tarea 1
+
+#include<stdio.h>
+#define MAX
+//variable global
+int arreglo[MAX]
+int indce
+int menu(char texto[], int n;
+void insertar(int dato);
+void insertar(int dato){
+indice ++;
+arreglo[indice] = dato;
+}
+void listar(){
+int i;
+for(i=0; i<=indice; i++)
+printf("%d\t", arreglo[i]);
+Printf(\n);
+}
+main(){
+//variables locales 
+int opcion;
+indice = -1;
+do{
+ opcion = menu("\n1)Insertar\n2)Borrar\n3)\n4)Actualizar\n5)Listar\n6)Ordenar\n7)salir",7);
+ switch(opcion){ 
+ 
+ //case
+ 
+ case1://insertar
+        1)Valida espacio
+        2)Pide dato
+        3)Actualiza //incrementa indice
+        4)Registra dato en el arreglo
+if indice<MAX-1){
+Printf("Dame el dato a insertar:");
+Scanf(%d,&dato);
+Insertar(dato);
+}
+else
+printf("Error, no hay espacio en el arreglo\n");
+break;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ }while(opcion!=7)
+ }
+ int menu(char texto[], int n;
+void insertar(int dato);
+do{
+Printf("%s),texto);
+scantf("%.d",&opcion);
+if (opcion<1 || opcion >n);
+return opcion;
+}
